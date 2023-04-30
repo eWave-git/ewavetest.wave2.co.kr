@@ -56,7 +56,13 @@ if ($bd_type != 1) {
 	
 	} else if ($bd_type == 5) {
 		$d1 = round($d1 / 10,1);
-		$d2 = round($d2 / 10, 1);
+		$d2 = round($d2 / 10,1);
+		$d3 = round($d3 / 10,1);
+		$d4 = round($d4 / 10,1);
+		$d5 = round($d5 / 10,1);
+		$d6 = round($d6 / 10,1);
+		$d7 = round($d7 / 10,1);
+		$d8 = round($d8 / 10,1);
 	}	
 
 	$sql = "INSERT INTO raw_data (`create_at`,`address`,`board_type`,`board_number`,`data1`,`data2`,`data3`,`data4`,`data5`,`data6`,`data7`)
