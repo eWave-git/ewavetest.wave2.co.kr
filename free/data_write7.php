@@ -65,8 +65,8 @@ if ($bd_type != 1) {
 		$d8 = round($d8 / 10,1);
 	}	
 
-	$sql = "INSERT INTO raw_data (`create_at`,`address`,`board_type`,`board_number`,`data1`,`data2`,`data3`,`data4`,`data5`,`data6`,`data7`)
-    		VALUES ('{$create_at}', $address, $bd_type, $bd_number, $d1, $d2, $d3, $d4, $d5, $d6, $d7)";
+	$sql = "INSERT INTO raw_data (`create_at`,`address`,`board_type`,`board_number`,`data1`,`data2`,`data3`,`data4`,`data5`,`data6`,`data7`,`data8`)
+    		VALUES ('{$create_at}', $address, $bd_type, $bd_number, $d1, $d2, $d3, $d4, $d5, $d6, $d7, $d8)";
 
 	$result = mysqli_query($conn, $sql);
 }
